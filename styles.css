@@ -74,6 +74,12 @@ li{
     margin: 0 auto;
 }
 
+#about,
+#Discord,
+#Contact{
+    padding: 48px 0;
+}
+
 /*
 
 About 
@@ -81,7 +87,7 @@ About
 */
 
 #about{
-    padding: 48px 0;
+    background-color: #f8ffdc;
 }
 
 h2{
@@ -97,7 +103,7 @@ h2{
 }
 
 .about__img--wrapper{
-    width: 40%;
+    width: 50%;
 }
 
 img{
@@ -116,4 +122,64 @@ img{
     font-size: 20px;
     line-height: 1.5;
     margin-bottom: 24px;
+}
+
+/* 
+
+Discord
+
+*/
+
+#Discord{
+    background-color: #cefeff;
+}
+
+/* 
+
+Contact Us
+
+*/
+
+#Contact{
+    background-color: #dce9ff;
+}
+
+form{
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+input,textarea{
+    margin-bottom: 24px;
+    font-size: 20px;
+    padding: 6px 12px;
+}
+
+/* 
+
+Footer
+
+*/
+
+footer{
+    background-color: #aaf5ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer_logo{
+    max-width: 480px;
+    margin-bottom: 16px;
+}
+
+.footer_links{
+    margin-bottom: 32px;
+}
+
+.footer_link{
+    padding: 0 16px;
 }
